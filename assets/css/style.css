@@ -13,7 +13,8 @@ font-family: 'Roboto', sans-serif;*/
 }
 
 body {
- font-family: 'Lato', sans-serif;
+   font-family: 'Roboto', sans-serif;
+
   font-weight: normal;
   font-style: normal;
   background-color: var(--body);
@@ -63,8 +64,17 @@ h3,
 h4,
 h5,
 h6 {
+<<<<<<< HEAD
+   font-family: 'Lato', sans-serif;
   
+=======
+<<<<<<< HEAD
+
+=======
+  
+>>>>>>> ce4df9de2be2898f1975c78755538f0b7db1a973
    font-family: 'Roboto', sans-serif;
+>>>>>>> 77777e0eca76baf2f2563fc43def6876daae8860
   font-weight: 700;
   font-style: normal;
   color: var(--h);
@@ -129,11 +139,11 @@ header {
 }
 .navbar-bg {
     background: #f7e4ea8c;
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 0;
     padding: 5px 0px;
-    z-index: 999;
+    z-index: 9999;
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 }
 
@@ -234,18 +244,20 @@ a.custom-btn:hover {
 
 /*about section start */
 section.about-section {
-    padding: 100px 0px;
+    padding: 114px 0px;
 }
 .section-title {
     text-align: center;
+        padding-bottom: 35px;
 }
 
 .section-title span {
-    display: block;
     font-weight: 600;
     color: #fb90b1;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
 }
 
 .section-title h2 {
@@ -255,23 +267,62 @@ section.about-section {
 .section-title {
     position: relative;
 }
-
-/*.section-title:after {
-    position: absolute;
+.section-title p {
+    padding-top: 10px;
+}
+.section-title:after {
+       position: absolute;
     content: "";
     left: 50%;
-    width: 200px;
-    height: 100px;
+    width: 240px;
+    height: 177px;
     top: 0;
     transform: translateX(-50%);
-    background: url(../img/eye.png);
-}*/
-.section-title:before {
-    position: absolute;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f007";
-   left: 0;
+    background: url(../img/eye2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.05;
+    margin-top: -3%;
 }
+.section-title span:after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid;
+  margin: auto 10px;
+  max-width: 100px;
+}
+
+.section-title span:before {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid;
+  margin: auto 10px;
+  max-width: 100px;
+}
+.our-services-card {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.our-service-img {width: 133px;padding-right: 20px;}
+
+.our-services-des h4 {
+    padding-bottom: 5px;
+    font-size: 24px;
+    color: #202020;
+    line-height: 27px;
+}
+
+.our-services-des p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.our-service-img img {width: 100%;max-width: 50px;margin-top: 5px;}
 /*about section end*/
+<<<<<<< HEAD
 /************** Template CSS End **************/
+=======
+/************** Template CSS End **************/
+>>>>>>> ce4df9de2be2898f1975c78755538f0b7db1a973
