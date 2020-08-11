@@ -3,12 +3,32 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width:1500px){ 
-    
+      .banner-img img {
+    max-width: 400px;
+    width: 100%;
+}
+.banner-img-overly {
+    right: 5.5%;
+    max-width: 500px;
+}
+header {
+    padding-bottom: 55%;
+} 
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-   
+   .banner-img img {
+    max-width: 300px;
+    width: 100%;
+}
+.banner-img-overly {
+    right: 4.5%;
+    max-width: 450px;
+}
+header {
+    padding-bottom: 60%;
+}
 }
 
 /* Medium devices (tablets, 768px and up) */
