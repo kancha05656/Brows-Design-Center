@@ -63,7 +63,11 @@ h3,
 h4,
 h5,
 h6 {
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> ce4df9de2be2898f1975c78755538f0b7db1a973
    font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -274,4 +278,8 @@ section.about-section {
    left: 0;
 }
 /*about section end*/
+<<<<<<< HEAD
 /************** Template CSS End **************/
+=======
+/************** Template CSS End **************/
+>>>>>>> ce4df9de2be2898f1975c78755538f0b7db1a973
