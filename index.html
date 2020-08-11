@@ -83,13 +83,145 @@
       <span>QUALITY OVER QUANTITY</span>
       <h2>Welcome to Brows Design Center</h2>
     </div>
+    <div class="about-us-des text-center">
+      <p>Browcraft Studio is a full-service skin care studio specializing in eyebrow design (including microblading) and premium skincare. We’ve brought together the industry’s top talent to help you achieve the perfect brow shape and optimum skin health using the most effective, specialized products available today. Our team is dedicated to creating a sleek, welcoming sanctuary environment where you will receive nothing less than VIP service on each and every visit</p>
+      <a href="" class="custom-btn mt-4">Learn more</a>
+    </div>
   </div>
 </section>
 <!-- about section end -->
 
 
+<!-- our service section start  -->
+
+<section class="our-service">
+  <div class="container">
+        <div class="section-title">
+      <span>WHAT WE DO</span>
+      <h2>What We Offer for You</h2>
+      <p>If you have patchy eyebrows or simply wish you had more brows, eyebrow embroidery is your answer. The natural look achieved by 3D eyebrow microblading is incomparable to other solutions like eyebrow tattoos</p>
+    </div>
+  
+    <div class="row">
+      <div class="col-md-4">
+        <div class="our-services-card">
+          <div class="our-service-img">
+            <img src="assets/img/service1.png" alt="service">
+          </div>
+          <div class="our-services-des">
+            <h4>eyebrow threading</h4>
+            <p>Getting perfect brows really depends on the dimensions of your face—and knowing how to shape eyebrows based</p>
+          </div>
+        </div>
+      </div>
+
+         <div class="col-md-4">
+        <div class="our-services-card">
+          <div class="our-service-img">
+            <img src="assets/img/service1.png" alt="service">
+          </div>
+          <div class="our-services-des">
+            <h4>side bums</h4>
+            <p>Getting perfect brows really depends on the dimensions of your face—and knowing how to shape eyebrows based</p>
+          </div>
+        </div>
+      </div>
+
+         <div class="col-md-4">
+        <div class="our-services-card">
+          <div class="our-service-img">
+            <img src="assets/img/service3.png" alt="service">
+          </div>
+          <div class="our-services-des">
+            <h4>forehead</h4>
+            <p>Getting perfect brows really depends on the dimensions of your face—and knowing how to shape eyebrows based</p>
+          </div>
+        </div>
+      </div>
+
+         <div class="col-md-4">
+        <div class="our-services-card">
+          <div class="our-service-img">
+            <img src="assets/img/service1.png" alt="service">
+          </div>
+          <div class="our-services-des">
+            <h4>full side bums</h4>
+            <p>Getting perfect brows really depends on the dimensions of your face—and knowing how to shape eyebrows based</p>
+          </div>
+        </div>
+      </div>
+
+         <div class="col-md-4">
+        <div class="our-services-card">
+          <div class="our-service-img">
+            <img src="assets/img/service2.png" alt="service">
+          </div>
+          <div class="our-services-des">
+            <h4>upper-lips</h4>
+            <p>Getting perfect brows really depends on the dimensions of your face—and knowing how to shape eyebrows based</p>
+          </div>
+        </div>
+      </div>
+
+         <div class="col-md-4">
+        <div class="our-services-card">
+          <div class="our-service-img">
+            <img src="assets/img/service3.png" alt="service">
+          </div>
+          <div class="our-services-des">
+            <h4>chin </h4>
+            <p>Getting perfect brows really depends on the dimensions of your face—and knowing how to shape eyebrows based</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</section>
+
+<!-- our service section end  -->
 
 
+
+
+
+
+
+
+<!-- <div id="filters">
+  <a href="#" data-filter="*">ALL</a>
+  <a href="#" data-filter=".type1">TYPE1</a>
+  <a href="#" data-filter=".type2">TYPE2</a>
+  <a href="#" data-filter=".type3">TYPE3</a>
+  <a href="#" data-filter=".type2,.type3">TYPE2 & TYPE3</a>
+</div>
+
+<div id="grid">
+  <a href="#" class="type1"></a>
+  <a href="#" class="type3"></a>
+  <a href="#" class="type1"></a>
+  <a href="#" class="type2"></a>
+  <a href="#" class="type3"></a>
+  <a href="#" class="type2"></a>
+  <a href="#" class="type3"></a>
+  <a href="#" class="type1"></a>
+  <a href="#" class="type2"></a>
+  <a href="#" class="type3"></a>
+  <a href="#" class="type1"></a>
+  <a href="#" class="type1"></a>
+  <a href="#" class="type1"></a>
+  <a href="#" class="type2"></a>
+  <a href="#" class="type3"></a>
+  <a href="#" class="type1"></a>
+  <a href="#" class="type2"></a>
+  <a href="#" class="type3"></a>
+  <a href="#" class="type1"></a>
+  <a href="#" class="type2"></a>
+  <a href="#" class="type3"></a>
+  <a href="#" class="type1"></a>
+  <a href="#" class="type2"></a>
+  <a href="#" class="type3"></a>
+</div> -->
 
 
   <!-- Code end -->
@@ -98,9 +230,22 @@
   <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <!-- <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script> -->
   <!-- Main Js -->
   <script src="assets/js/main.js"></script>
+<script>
+  var $grid = $("#grid").isotope({
+  itemSelector: "a",
+  layoutMode: "fitRows"
+});
 
+$("#filters").on("click", "a", function() {
+  var filterValue = $(this).attr("data-filter");
+  // use filterFn if matches value
+  $grid.isotope({ filter: filterValue });
+});
+
+</script>
 </body>
 
 </html>
