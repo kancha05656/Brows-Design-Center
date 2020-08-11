@@ -64,8 +64,17 @@ h3,
 h4,
 h5,
 h6 {
+<<<<<<< HEAD
    font-family: 'Lato', sans-serif;
   
+=======
+<<<<<<< HEAD
+
+=======
+  
+>>>>>>> ce4df9de2be2898f1975c78755538f0b7db1a973
+   font-family: 'Roboto', sans-serif;
+>>>>>>> 77777e0eca76baf2f2563fc43def6876daae8860
   font-weight: 700;
   font-style: normal;
   color: var(--h);
@@ -312,4 +321,8 @@ section.about-section {
 
 .our-service-img img {width: 100%;max-width: 50px;margin-top: 5px;}
 /*about section end*/
+<<<<<<< HEAD
 /************** Template CSS End **************/
+=======
+/************** Template CSS End **************/
+>>>>>>> ce4df9de2be2898f1975c78755538f0b7db1a973
