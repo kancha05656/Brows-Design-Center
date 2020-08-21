@@ -678,7 +678,9 @@ section.testimonial-section {
     color: #fff;
     font-size: 17px;
 }
-
+.breadcum ul li a:hover {
+    color: rgba(255, 255, 255, 0.82) !important;
+}
 /*gallery */
 .item {
     max-height: 400px;
