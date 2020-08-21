@@ -11,9 +11,20 @@
     right: 5.5%;
     max-width: 500px;
 }
-header {
+#home{
     padding-bottom: 55%;
 } 
+a.navbar-brand img {
+    width: 100%;
+    max-width: 90px;
+}
+/*.navbar-bg {
+    padding: 0px 0px;
+}*/
+.navbar-brand {
+    padding-top: 0rem; 
+    padding-bottom: 0rem;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -38,7 +49,10 @@ header {
 
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) { 
-   
+ .navbar-brand {
+    padding-top: 0rem; 
+    padding-bottom: 0rem;
+    }  
 }
 
 /* Small devices (landscape phones, 576px and up) */
