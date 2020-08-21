@@ -146,6 +146,16 @@ header#gallery {
     background-position-x: right;
     background-size: cover;
 }
+header#aboutus{
+  background: url(../img/about-us.jpg);
+    background-position-x: right;
+    background-size: cover;
+}
+header#contact{
+  background: url(../img/contact-us.jpg);
+    background-position-x: right;
+    background-size: cover;
+}
 .navbar-bg {
         background: #f7e4ea59;
     position: absolute;
@@ -221,7 +231,7 @@ header:after {
     left: 0;
 }
 
-a.custom-btn {
+.custom-btn {
     display: inline-block;
     background: #fb90b1;
     color: #fff;
@@ -236,8 +246,10 @@ a.custom-btn {
     line-height: 23px;
     border: 1px solid #fb90b1;
 }
+button.custom-btn {
 
-a.custom-btn:hover {
+}
+.custom-btn:hover {
     background: transparent;
     border: 1px solid #fb90b1;
     color: #000;
@@ -735,4 +747,101 @@ section.testimonial-section {
 .item-overly a i {
     font-size: 25px;
     color: #fff;
+}
+
+/*about us page */
+.about-us-des h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 0;
+    font-style: italic;
+}
+.counter-wrap {
+    display: flex;
+}
+
+.counter-img img {
+    width: 100%;
+    max-width: 50px;
+}
+
+.counter-img {
+    margin-right: 20px;
+}
+
+.counter h3 {
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+section.counter-section {
+    background: rgba(250, 164, 191, 0.3);
+    padding: 40px 0px;
+}
+h3.counter-number {
+    position: relative;
+}
+
+
+
+h3.counter-number:after {content: "\f067";position: absolute;font-family: "Font Awesome 5 Pro";font-size: 18px;top: 13px;margin-left: 5px;}
+
+.contact-form-sidebar {
+    background: rgba(250, 164, 191, 0.3);
+    padding: 40px 25px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border-left: 2px solid #FAA4BF;
+}
+
+.sidebar-header h3 {
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+
+.sidebar-header p {
+    font-size: 14px;
+}
+
+.sidebar-body {
+    padding-top: 15px;
+}
+
+.sidebar-item h5 {
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+
+.sidebar-item h5 i {
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+.sidebar-item p {
+    font-size: 15px;
+}
+.form-group {
+    margin-bottom: 25px !important;
+}
+.form-control {
+    padding: 22px 20px !important;
+    }
+
+    .contact-wrap {
+    box-shadow: 1px 2px 11px 4px rgb(250 164 191 / 14%);
+    padding: 40px;
+    border-radius: 8px;
+}
+.form-control:focus {
+    border-color: #fee3ec !important;
+    box-shadow: 0 0 0 0.2rem rgb(254 227 236) !important;
+}
+section.map-section {
+    padding-bottom: 90px;
+    padding-top: 20px;
+}
+footer.page-footer.contact-page-footer {
+    padding-top: 40px;
+    border-top: 1px dotted #fb90b191;
 }
