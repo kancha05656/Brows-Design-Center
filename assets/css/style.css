@@ -110,7 +110,9 @@ a {
   font-size: 17px;
   font-weight: 400;
 }
-
+a:hover {
+    color: #fb90b1 !important;
+}
 /************** Default CSS End **************/
 
 .section-padding-top{
@@ -481,7 +483,7 @@ li.slick-active {
     color: #fb90b1;
 }
 .cta-button a:hover {
-    color:#fff;
+        color: #fff !important;
 }
 footer {
     padding-top: 80px;
