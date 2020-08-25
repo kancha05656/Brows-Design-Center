@@ -159,7 +159,8 @@ header#contact{
     background-size: cover;
 }
 .navbar-bg {
-        background: #f7e4ea59;
+        /*background: #f7e4ea59;*/
+        background: #e9eaeba6;
     position: absolute;
     width: 100%;
     top: 0;
@@ -334,7 +335,7 @@ section.about-section {
 }
 .our-services-card {
     padding-bottom: 20px;
-    min-height: 300px;
+    min-height: 320px;
     max-width: 350px;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -626,6 +627,7 @@ section.testimonial-section {
     padding: 20px;
     position: relative;
     margin-bottom: 20px;
+    min-height: 250px;
     border-radius: 5px;
     box-shadow: 1px 2px 11px 4px rgb(250 164 191 / 14%);
 }
