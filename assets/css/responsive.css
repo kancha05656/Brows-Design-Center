@@ -16,7 +16,7 @@
 } 
 a.navbar-brand img {
     width: 100%;
-    max-width: 90px;
+    max-width: 110px;
 }
 /*.navbar-bg {
     padding: 0px 0px;
@@ -113,6 +113,7 @@ section.about-section {
 @media (max-width: 991px){
     .navbar-bg {
     position: static;
+        background: #f7e4ea59;
 }
 .price-card{
 max-width: 350px;
