@@ -126,10 +126,12 @@ a.navbar-brand img {
     max-width: 125px;
 }
 #home {
-    background: url(../img/home_01.jpg);
-    background-size: 100% 100%;
-    padding-bottom: 48%;
-    position: relative;
+       background: url(../img/home_01.jpg);
+       padding-bottom: 44%;
+       position: relative;
+       background-size: cover;
+       background-repeat: no-repeat;
+       height: 100%;
 }
 header {
     background-size: 100% 100%;
@@ -140,28 +142,28 @@ header {
 }
 header#services{
     background: url(../img/Services.jpg);
-     background-position-x: right;
+         background-position-x: 40%;
     background-size: cover;
 }
 header#gallery {
     background: url(../img/gellary.jpg);
-    background-position-x: right;
+    background-position-x: 20%;
     background-size: cover;
 }
 header#aboutus{
   background: url(../img/about-us.jpg);
-    background-position-x: right;
+    background-position-x: 10%;
     background-size: cover;
 }
 header#contact{
   background: url(../img/contact-us.jpg);
-    background-position-x: right;
+        background-position: 20%;
     background-size: cover;
 }
 .navbar-bg {
-        /*background: #f7e4ea59;*/
-        background: #e9eaeba6;
-    position: absolute;
+    background: #f7e4ea59;
+    /* background: #e9eaeba6; */
+    position: static;
     width: 100%;
     top: 0;
     padding: 5px 0px;
@@ -207,7 +209,6 @@ a.nav-link:hover {
 .banner-img-overly {
     position: absolute;
     right: 8.5%;
-    bottom: 0;
     top: 50%;
     transform: translateY(-50%);
     max-width: 700px;
@@ -221,7 +222,7 @@ a.nav-link:hover {
 }
 
 .banner-img {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 header:after {
@@ -260,10 +261,10 @@ button.custom-btn {
 
 .banner-des h1 {
   padding-top: 15px;
-    padding-bottom: 40px;
-    font-size:17px;
-    font-weight: 600;
-    line-height: 25px;
+  padding-bottom: 20px;
+  font-size:17px;
+  font-weight: 600;
+  line-height: 25px;
 }
 /*header css end*/
 
