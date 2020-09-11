@@ -1,4 +1,5 @@
 
+
 /* ***Responsive media query*** */
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -16,7 +17,7 @@
 } 
 a.navbar-brand img {
     width: 100%;
-    max-width: 110px;
+    max-width: 120px;
 }
 /*.navbar-bg {
     padding: 0px 0px;
@@ -76,7 +77,9 @@ a.navbar-brand img {
     bottom: 0;
     top: 10%;
     max-width: 300px;
-        transform: translateY(0);
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
 }
 .banner-img img {
     max-width: 250px;
@@ -129,6 +132,16 @@ margin:0px auto;
 .contact-form-sidebar {
     margin-top: 50px;
 }
+.bottom-text {
+    display: block;
+    text-align: center;
+}
+.bottom-text p {
+    font-size: 14px;
+}
+.footer-copyright a {
+    font-size: 15px;
+}
 }
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) { 
@@ -140,7 +153,9 @@ margin:0px auto;
     width: 30%;
 }
 .footer-useful-link {
-    justify-content: inherit;
+    -webkit-box-pack: inherit;
+        -ms-flex-pack: inherit;
+            justify-content: inherit;
 
 }
 .cta-heading h5 {
@@ -159,7 +174,9 @@ margin:0px auto;
 .banner-img-overly {
     right: 7.5%;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     max-width: 40%;
 }
 .banner-des h1 {
@@ -167,6 +184,7 @@ margin:0px auto;
     padding-bottom: 15px;
     font-size: 15px;
     line-height: 1.5;
+        font-weight: 500;
 }
 .custom-btn {
     font-size: 14px;
@@ -196,7 +214,28 @@ section.about-section {
 section.testimonial-section {
     padding: 70px 0px;
 }
-
+.counter-wrap {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 15px;
+}
+.price-card h5{
+    font-size:40px;
+}
+.price-card h6 {
+    font-size: 20px;
+    margin-top: 10px;
+    }
+    .filters ul li {
+    font-size: 15px;
+    padding: 5px 12px;
+    margin-right: 10px;
+}
+p {
+    font-size: 15px;
+    line-height: 1.5;
+    }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 320px) and (max-width: 575.98px) { 
@@ -207,7 +246,7 @@ section.testimonial-section {
 }
 .banner-img-overly {
     right: 6.5%;
-    max-width: 50%;
+        max-width: 62%;
 }
 .section-title h2 {
     font-size: 22px;
@@ -223,5 +262,23 @@ footer {
 }
 ul.list-unstyled.list-one {
     width: 45%;
+}
+.breadcum {
+    max-width: 60%;
+    padding: 6px 0px;
+}
+.breadcum ul li a {
+    font-size: 14px;
+}
+.contact-wrap {
+    padding: 25px;
+}
+.filters ul li {
+    font-size: 13px;
+    padding: 5px 5px;
+    margin-right: 0px;
+}
+.our-services-des p {
+    font-size: 15px;
 }
 }
