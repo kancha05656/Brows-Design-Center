@@ -423,15 +423,13 @@ section.price-section {
 }
 
 .product-img {
-    border-bottom-left-radius: 80px;
-    /* border-bottom-right-radius: 80px; */
     overflow: hidden;
     position: relative;
     margin-bottom: 40px;
         max-height: 200px;
 }
 
-.product-img:after {
+/*.product-img:after {
     position: absolute;
     left: 0;
     content: "";
@@ -439,7 +437,7 @@ section.price-section {
     background: linear-gradient(90deg, rgba(116,243,239, 0.8) 0%, rgba(251,144,177, 0.8)) no-repeat center;
     width: 100%;
     top:0;
-}
+}*/
 .slick-initialized .slick-slide {
     outline: none;
 }
